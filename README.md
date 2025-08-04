@@ -6,11 +6,11 @@ O objetivo principal é desenvolver um modelo de Machine Learning preciso e inte
 
 ## Metodologia e Ferramentas
 O projeto foi dividido em 5 etapas principais:
-* Web Scraping: Diante da ausência de datasets públicos, os dados foram coletados de um grande portal imobiliário através de automação de navegador com Selenium, superando barreiras de segurança e conteúdo dinâmico.
-* Análise Exploratória e Limpeza: Com os dados em mãos, a biblioteca Pandas foi utilizada para um rigoroso processo de limpeza e tratamento. Em seguida, Matplotlib e Seaborn foram usados para visualizar os dados e extrair insights sobre a estrutura do mercado, como a hierarquia de preços dos bairros e as correlações entre as variáveis.
-* Engenharia de Features: Para enriquecer o modelo, foram criadas features geoespaciais usando a biblioteca Geopy para calcular a distância de cada imóvel a pontos de interesse da cidade (praias, shoppings, etc.).
-* Modelagem e Interpretabilidade: Foram treinados, otimizados (GridSearchCV) e comparados quatro diferentes famílias de modelos de regressão: Regressão Linear, Random Forest, XGBoost e Rede Neural. O modelo campeão (Random Forest Regressor) foi então analisado com a biblioteca SHAP para entender os fatores por trás de suas previsões.
-* Aplicação Web: Como produto final, foi desenvolvida uma aplicação interativa com Streamlit, onde o usuário pode inserir as características de um imóvel e receber uma estimativa de preço em tempo real, incluindo uma análise da incerteza da previsão.
+* *Web Scraping:* Diante da ausência de datasets públicos, os dados foram coletados de um grande portal imobiliário através de automação de navegador com Selenium, superando barreiras de segurança e conteúdo dinâmico.
+* *Análise Exploratória e Limpeza:* Com os dados em mãos, a biblioteca Pandas foi utilizada para um rigoroso processo de limpeza e tratamento. Em seguida, Matplotlib e Seaborn foram usados para visualizar os dados e extrair insights sobre a estrutura do mercado, como a hierarquia de preços dos bairros e as correlações entre as variáveis.
+* *Engenharia de Features:* Para enriquecer o modelo, foram criadas features geoespaciais usando a biblioteca Geopy para calcular a distância de cada imóvel a pontos de interesse da cidade (praias, shoppings, etc.).
+* *Modelagem e Interpretabilidade:* Foram treinados, otimizados (GridSearchCV) e comparados quatro diferentes famílias de modelos de regressão: Regressão Linear, Random Forest, XGBoost e Rede Neural. O modelo campeão (Random Forest Regressor) foi então analisado com a biblioteca SHAP para entender os fatores por trás de suas previsões.
+* *Aplicação Web:* Como produto final, foi desenvolvida uma aplicação interativa com Streamlit, onde o usuário pode inserir as características de um imóvel e receber uma estimativa de preço em tempo real, incluindo uma análise da incerteza da previsão.
 
 ## Tecnologias Utilizadas
 * Coleta de Dados: Selenium, BeautifulSoup

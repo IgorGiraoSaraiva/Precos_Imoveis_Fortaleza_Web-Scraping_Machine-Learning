@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "projeto-igor"
+version = "0.1.0"
+description = ""
+authors = ["Igor girao <saraivagiraoigor@hotmaill.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.10"
+pandas = "^2.3.1"
+numpy = "*"
+scikit-learn = "^1.7.1"
+seaborn = "^0.13.2"
+requests = "^2.32.4"
+beautifulsoup4 = "^4.13.4"
+selenium = "^4.34.2"
+webdriver-manager = "^4.0.2"
+sm = "^0.1.8"
+statsmodels = "^0.14.5"
+xgboost = "^3.0.3"
+keras-tuner = "^1.4.7"
+shap = "^0.48.0"
+joblib = "^1.5.1"
+streamlit = "^1.47.1"
+geopy = "^2.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
